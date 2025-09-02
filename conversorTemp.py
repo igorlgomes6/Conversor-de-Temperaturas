@@ -5,7 +5,7 @@ def mostrar(nome, valor):
         print(f"{nome}: {int(valor)}")
     else:
         # Se o valor for decimal, mostra normalmente
-        print(f"{nome}: {valor}")
+        print(f"{nome}: {valor:.2f}")
 
 # Solicita ao usuário a temperatura e a escala (ex: 30 C)
 entrada = input("Digite uma temperatura a ser convertida: ")
